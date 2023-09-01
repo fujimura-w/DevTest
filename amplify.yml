@@ -6,8 +6,10 @@ frontend:
       commands: []
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: public
+    baseDirectory: /
     files:
       - '**/*'
   cache:
     paths: []
+  customHeaders: []
+  indexDocument: Test.html
