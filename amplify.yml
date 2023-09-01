@@ -11,5 +11,3 @@ frontend:
       - '**/*'
   cache:
     paths: []
-  customHeaders: []
-  indexDocument: Test.html
