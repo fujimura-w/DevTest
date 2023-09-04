@@ -47,7 +47,7 @@
       // GLTF形式のモデルデータを読み込む
       const loader = new GLTFLoader();
       // GLTFファイルのパスを指定
-      const gltf = await loader.loadAsync("https://rawcdn.githack.com/nishi-dy/glb--files/d0a6e1e252671749fc9d80dd5e8e375f132dab56/glass.glb");
+      const gltf = await loader.loadAsync("https://amplifydevtest-storage-73e79bb153233-staging.s3.ap-northeast-1.amazonaws.com/public/AntiqueCamera.glb");
       // 読み込み後に3D空間に追加
       const model = gltf.scene;
       scene.add(model);
